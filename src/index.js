@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './fonts/Play-Regular.ttf'
+import './fonts/Play-Bold.ttf'
 import './index.css';
-import App from './App';
+import Router from './Router';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router />
   </React.StrictMode>,
   document.getElementById('root')
 );
